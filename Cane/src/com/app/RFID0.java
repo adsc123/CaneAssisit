@@ -1,5 +1,6 @@
 package com.app;
 
+import java.awt.Toolkit;
 import java.text.SimpleDateFormat;
 
 
@@ -97,7 +98,7 @@ public void onTag(RFIDTagEvent e) {
             	
             	// if a tag is produced/touched
             	if (rfid.getTagPresent()) {
-
+            		Toolkit.getDefaultToolkit().beep();
             		// get the tag value
             		lcd0.setBacklight(1);
             		String tag_value=e.getTag();
@@ -109,6 +110,9 @@ public void onTag(RFIDTagEvent e) {
             		}
             		else if (tag_value.equalsIgnoreCase("010693444f")) {
             			navigate="Restaurant";
+            		}
+            		else {
+            			navigate="unknown tag";
             		}
             		lcd0.writeText(com.phidget22.LCDFont.DIMENSIONS_6X12, 0, 0,"Navigate to :");
             		lcd0.writeText(com.phidget22.LCDFont.DIMENSIONS_6X12, 0, 1,navigate);
