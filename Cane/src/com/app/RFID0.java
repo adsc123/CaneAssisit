@@ -53,7 +53,7 @@ public static void main(String[] args) throws Exception {
 	 try{
 	        //Create the object for RFID and attach listeners
 	            rfid = new RFID();
-	            rfid.setDeviceSerialNumber(63468);
+	            rfid.setDeviceSerialNumber(63558);
 	            rfid.addAttachListener(onAttach);
 	            rfid.addDetachListener(onDetach);
 	            rfid.addTagListener(onTag);
@@ -125,7 +125,7 @@ public void onTag(RFIDTagEvent e) {
             	}
             	
             	// wait for sometime before another action
-                Thread.sleep(5000);
+//                Thread.sleep(5000);
                
             }
             catch(Exception err)
