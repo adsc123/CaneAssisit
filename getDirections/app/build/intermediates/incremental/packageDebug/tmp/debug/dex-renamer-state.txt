@@ -1,0 +1,4 @@
+#Sun Apr 25 21:27:52 BST 2021
+base.0=D\:\\Swansea\\teaching\\Hardware\\android\\Phidget22_RFID_Java_Android_Ex_20201218\\getDirections\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
