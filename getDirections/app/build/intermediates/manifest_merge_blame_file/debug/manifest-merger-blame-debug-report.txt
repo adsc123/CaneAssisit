@@ -5,112 +5,173 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
+7-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:4:5-44
 8        android:minSdkVersion="16"
-8-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml
+8-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:4:15-41
 9        android:targetSdkVersion="30" />
-9-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml
-10
-11    <!--
-12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-13         Google Maps Android API v2, but you must specify either coarse or fine
-14         location permissions for the "MyLocation" functionality.
-15    -->
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:10:5-79
-16-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:11:5-81
-17-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:11:22-78
-18    <uses-permission android:name="android.permission.INTERNET" />
-18-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:12:5-67
-18-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:12:22-64
-19
-20    <!-- Include required permissions for Google Maps API to run. -->
-21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
-22
-23    <uses-feature
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-24        android:glEsVersion="0x00020000"
-24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-25        android:required="true" />
-25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-26
-27    <application
-27-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:14:5-43:19
-28        android:allowBackup="true"
-28-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:15:9-35
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.3.1] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
-30        android:debuggable="true"
-31        android:icon="@mipmap/ic_launcher"
-31-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:16:9-43
-32        android:label="@string/app_name"
-32-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:17:9-41
-33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:18:9-54
-34        android:supportsRtl="true"
-34-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:19:9-35
-35        android:testOnly="true"
-36        android:theme="@style/Theme.GetDirections" >
-36-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:20:9-51
-37
-38        <!--
-39             The API key for Google Maps-based APIs is defined as a string resource.
-40             (See the file "res/values/google_maps_api.xml").
-41             Note that the API key is linked to the encryption key used to sign the APK.
-42             You need a different API key for each encryption key, including the release key that is used to
-43             sign the APK for publishing.
-44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-45        -->
-46        <meta-data
-46-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:30:9-32:55
-47            android:name="com.google.android.geo.API_KEY"
-47-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:31:13-58
-48            android:value="@string/google_maps_key" />
-48-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:32:13-52
-49
-50        <activity
-50-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:34:9-42:20
-51            android:name="com.app.getdirections.MapsActivity"
-51-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:35:13-41
-52            android:label="@string/title_activity_maps" >
-52-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:36:13-56
-53            <intent-filter>
-53-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:37:13-41:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:38:17-69
-54-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:38:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:40:17-77
-56-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:40:27-74
-57            </intent-filter>
-58        </activity>
-59        <!-- Needs to be explicitly declared on P+ -->
-60        <uses-library
-60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-61            android:name="org.apache.http.legacy"
-61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-62            android:required="false" />
-62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-63
-64        <activity
-64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-66            android:exported="false"
-66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-68
-69        <meta-data
-69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-70            android:name="com.google.android.gms.version"
-70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-71            android:value="@integer/google_play_services_version" />
-71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-72    </application>
-73
-74</manifest>
+9-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:4:5-44
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-feature
+15-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:10:5-12:36
+16        android:name="android.hardware.usb.host"
+16-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:11:9-49
+17        android:required="false" />
+17-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:12:9-33
+18
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:14:5-81
+20-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:15:5-67
+21-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:15:22-64
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+22-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
+22-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:10:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:17:5-46:19
+30        android:allowBackup="true"
+30-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:18:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.1] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:20:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:22:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.GetDirections" >
+38-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:23:9-51
+39
+40        <!--
+41             The API key for Google Maps-based APIs is defined as a string resource.
+42             (See the file "res/values/google_maps_api.xml").
+43             Note that the API key is linked to the encryption key used to sign the APK.
+44             You need a different API key for each encryption key, including the release key that is used to
+45             sign the APK for publishing.
+46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+47        -->
+48        <meta-data
+48-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:33:9-35:55
+49            android:name="com.google.android.geo.API_KEY"
+49-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:34:13-58
+50            android:value="@string/google_maps_key" />
+50-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:35:13-52
+51
+52        <activity
+52-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:37:9-45:20
+53            android:name="com.app.getdirections.MapsActivity"
+53-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:38:13-41
+54            android:label="@string/title_activity_maps" >
+54-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:39:13-56
+55            <intent-filter>
+55-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:40:13-44:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:41:17-69
+56-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:41:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:43:17-77
+58-->D:\Swansea\teaching\Hardware\android\Phidget22_RFID_Java_Android_Ex_20201218\getDirections\app\src\main\AndroidManifest.xml:43:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+62            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+62-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+63            android:exported="false"
+63-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+64            android:label="@string/places_autocomplete_label"
+64-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+65            android:theme="@style/PlacesAutocompleteOverlay"
+65-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+66            android:windowSoftInputMode="adjustResize" >
+66-->[com.google.android.libraries.places:places:2.4.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\ee650a35573f30983cab280c9ed89aae\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+67        </activity> <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\2d547673e05a0f4359ea410021e8e7c2\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+71
+72        <meta-data
+72-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\20750c8bc4a6fadef4c4342adc39c38f\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\20750c8bc4a6fadef4c4342adc39c38f\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\20750c8bc4a6fadef4c4342adc39c38f\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\c1d91fa2a305a19805afb9a4f80fda55\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\c1d91fa2a305a19805afb9a4f80fda55\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\c1d91fa2a305a19805afb9a4f80fda55\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\c1d91fa2a305a19805afb9a4f80fda55\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+80
+81        <service
+81-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\14cf8aa4fb3e1ee7c10ee7c46ace0a89\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+82            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\14cf8aa4fb3e1ee7c10ee7c46ace0a89\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+83            android:exported="false" >
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\14cf8aa4fb3e1ee7c10ee7c46ace0a89\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+84            <meta-data
+84-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\14cf8aa4fb3e1ee7c10ee7c46ace0a89\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+85                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+85-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\14cf8aa4fb3e1ee7c10ee7c46ace0a89\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+86                android:value="cct" />
+86-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\14cf8aa4fb3e1ee7c10ee7c46ace0a89\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+87        </service>
+88        <service
+88-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+89            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+89-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+90            android:exported="false"
+90-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+91            android:permission="android.permission.BIND_JOB_SERVICE" >
+91-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+92        </service>
+93
+94        <receiver
+94-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+95            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+95-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+96            android:exported="false" />
+96-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\75dac4bc9014ab8ca7baa63e80456db8\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+97
+98        <provider
+98-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\eb58d68d5b23581b7c0d44a7264ce92e\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+99            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\eb58d68d5b23581b7c0d44a7264ce92e\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+100            android:authorities="com.app.getdirections.lifecycle-process"
+100-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\eb58d68d5b23581b7c0d44a7264ce92e\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+101            android:exported="false"
+101-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\eb58d68d5b23581b7c0d44a7264ce92e\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+102            android:multiprocess="true" />
+102-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Jiten\.gradle\caches\transforms-2\files-2.1\eb58d68d5b23581b7c0d44a7264ce92e\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+103    </application>
+104
+105</manifest>

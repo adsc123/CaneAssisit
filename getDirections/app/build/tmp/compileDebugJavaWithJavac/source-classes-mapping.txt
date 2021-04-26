@@ -2,10 +2,31 @@ com/app/getdirections/DirectionsParser.java
  com.app.getdirections.DirectionsParser
 com/app/getdirections/BuildConfig.java
  com.app.getdirections.BuildConfig
+com/app/getdirections/SOTWFormatter.java
+ com.app.getdirections.SOTWFormatter
+com/app/getdirections/Compass.java
+ com.app.getdirections.Compass
+ com.app.getdirections.Compass$CompassListener
+com/app/getdirections/AttachEventHandler.java
+ com.app.getdirections.AttachEventHandler
 com/app/getdirections/MapsActivity.java
  com.app.getdirections.MapsActivity
  com.app.getdirections.MapsActivity$1
+ com.app.getdirections.MapsActivity$10
  com.app.getdirections.MapsActivity$2
  com.app.getdirections.MapsActivity$3
+ com.app.getdirections.MapsActivity$4
+ com.app.getdirections.MapsActivity$5
+ com.app.getdirections.MapsActivity$6
+ com.app.getdirections.MapsActivity$6$1
+ com.app.getdirections.MapsActivity$7
+ com.app.getdirections.MapsActivity$8
+ com.app.getdirections.MapsActivity$9
+ com.app.getdirections.MapsActivity$ErrorEventHandler
+ com.app.getdirections.MapsActivity$RFIDTagEventHandler
+ com.app.getdirections.MapsActivity$RFIDTagLostEventHandler
  com.app.getdirections.MapsActivity$TaskParser
+ com.app.getdirections.MapsActivity$TaskParser$1
  com.app.getdirections.MapsActivity$TaskRequestDirections
+com/app/getdirections/DetachEventHandler.java
+ com.app.getdirections.DetachEventHandler
